@@ -1,1 +1,0 @@
-*.{tga,dds,png} filter=lfs diff=lfs merge=lfs -text
