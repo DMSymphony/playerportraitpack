@@ -1,0 +1,3 @@
+Additions to the Arelith Player Portraits Pack/portraits can be made by placing additions here, in the transmutation/additions folder. This will allow you to convert just a few PNG portraits to DDS and TGA without needing to reconvert every file in the main /sources directory.
+
+The conversion overwrites files, so edited PNG's in sources can be temporarily copied to /additions to update DDS and TGA files in /portraits.
