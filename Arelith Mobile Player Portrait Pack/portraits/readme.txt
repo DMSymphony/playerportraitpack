@@ -1,0 +1,3 @@
+This portraits folder contains Mobile friendly KTX image resources for the Arelith Player Portrait Pack Workshop Item.
+
+The Arelith Player Portrait Pack is an optional unofficial portrait download for the Arelith Persistant server, and is not considered a "server official" portrait back, but a player pack allowing the player community a consensus on a large expansion of player portrait variety and filenames. The portrait pack is maintained by Spyre, with assistance from Symphony and Salmon.
