@@ -1,0 +1,1 @@
+Patch hak creation requires image conversion before hak packaging. This temp folder is designed to store portraits so that they can be packed into a .hak archive for patch hak install, with nwn_erf.
