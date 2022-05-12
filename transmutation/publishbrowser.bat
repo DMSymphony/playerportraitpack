@@ -15,11 +15,10 @@ echo =====================
 forfiles /P ..\sources\female /M *h.png /c "cmd /c ..\..\transmutation\cwebp.exe -m 6 -lossless -noalpha -hint picture @relpath -o ..\..\browser\female\\@fname.webp"
 forfiles /P ..\sources\male /M *h.png /c "cmd /c ..\..\transmutation\cwebp.exe -m 6 -lossless -noalpha -hint picture @relpath -o ..\..\browser\male\\@fname.webp"
 forfiles /P ..\sources\other /M *h.png /c "cmd /c ..\..\transmutation\cwebp.exe -m 6 -lossless -noalpha -hint picture @relpath -o ..\..\browser\other\\@fname.webp"
-pause
+echo Renaming files to portraitID
 ren "..\browser\female\*_h.webp" "*_"
 ren "..\browser\male\*_h.webp" "*_"
 ren "..\browser\other\*_h.webp" "*_"
-pause
 ren "..\browser\female\*_" "*_.webp"
 ren "..\browser\male\*_" "*_.webp"
 ren "..\browser\other\*_" "*_.webp"
