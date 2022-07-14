@@ -12,17 +12,17 @@ echo Ready to convert sources to DDS
 pause
 echo Converting to DDS
 echo =====================
-nwn_crunch.exe -file "..\sources\female\*.png" -outdir "..\Arelith Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
-nwn_crunch.exe -file "..\sources\male\*.png" -outdir "..\Arelith Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
-nwn_crunch.exe -file "..\sources\other\*.png" -outdir "..\Arelith Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
+nwn_crunch.exe -file "..\sources\female\*.png" -outdir "..\Enhanced Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
+nwn_crunch.exe -file "..\sources\male\*.png" -outdir "..\Enhanced Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
+nwn_crunch.exe -file "..\sources\other\*.png" -outdir "..\Enhanced Player Portrait Pack\override" -fileformat dds -DXT1 -yflip -quiet
 echo.
 echo DDS Portraits Conversion Finished
 echo.
 echo Ready to convert medium portraits to TGA
 echo Converting to TGA
 echo =====================
-nwn_crunch.exe -file "..\sources\female\*m.png" -outdir "..\Arelith Player Portrait Pack\portraits" -fileformat tga -quiet
-nwn_crunch.exe -file "..\sources\male\*m.png" -outdir "..\Arelith Player Portrait Pack\portraits" -fileformat tga -quiet
-nwn_crunch.exe -file "..\sources\other\*m.png" -outdir "..\Arelith Player Portrait Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\female\*m.png" -outdir "..\Enhanced Player Portrait Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\male\*m.png" -outdir "..\Enhanced Player Portrait Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\other\*m.png" -outdir "..\Enhanced Player Portrait Pack\portraits" -fileformat tga -quiet
 echo Conversion Finished
 pause

@@ -20,7 +20,7 @@ echo DDS Portraits Conversion Finished
 echo.
 echo Ready to compile DDS files into patch hak.
 pause
-nwn_erf.exe -c -f "..\Arelith Player Portrait Patch Pack\patch\appp_por.hak" haktemp
+nwn_erf.exe -c -f "..\Enhanced Player Portrait Patch Pack\patch\eppp_por.hak" haktemp
 echo.
 echo Patch Hak Creation Finished
 DEL .\haktemp\*dds
@@ -30,8 +30,8 @@ echo Ready to convert medium portraits to TGA.
 pause
 echo Converting to TGA
 echo =====================
-nwn_crunch.exe -file "..\sources\female\*m.png" -outdir "..\Arelith Player Portrait Patch Pack\portraits" -fileformat tga -quiet
-nwn_crunch.exe -file "..\sources\male\*m.png" -outdir "..\Arelith Player Portrait Patch Pack\portraits" -fileformat tga -quiet
-nwn_crunch.exe -file "..\sources\other\*m.png" -outdir "..\Arelith Player Portrait Patch Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\female\*m.png" -outdir "..\Enhanced Player Portrait Patch Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\male\*m.png" -outdir "..\Enhanced Player Portrait Patch Pack\portraits" -fileformat tga -quiet
+nwn_crunch.exe -file "..\sources\other\*m.png" -outdir "..\Enhanced Player Portrait Patch Pack\portraits" -fileformat tga -quiet
 echo Conversion Finished
 pause
